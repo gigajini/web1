@@ -96,7 +96,7 @@ body{margin: 0}
             line-height: 5em;
             font-weight: 800;
             }
-#clickview a {text-decoration: none; font-weight: bold; font-size: 1.5em; line-height: 8em;}
+#clickview a {text-decoration: none; font-weight: bold; font-size: 1.5em; line-height: 8em; color:inherit;}
 #clickview a:visited{color: black; font-weight: bold;}
 #clickview a:hover{
 
@@ -134,7 +134,7 @@ body{margin: 0}
               line-height: 0.5em;
 
               }
-.producttext a {
+.producttext a {color:inherit;
                 text-decoration: none;
                 line-height: 4em;
                 }
