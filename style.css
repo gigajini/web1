@@ -1,0 +1,255 @@
+body{margin: 0}
+
+.orangebox{
+            border: 1px solid orange;
+            width: 1500px;
+            height: 800px;
+            background-color: orange;
+            position: relative; tor:0 left:0;
+            }
+
+#squre2{
+                      width: 800px;
+                      height: 400px;
+                      background-color: pink;
+                      display: inline-block;
+                      position: absolute; left: -100px;bottom: 200px;
+                    }
+
+.container{
+          width: 1200px;
+          height: auto;
+          margin: auto;
+          position: absolute;top: 0;
+            transform: translate(50%);
+
+                  }
+              /*    #logo{
+                        width: 60px;
+
+                        display:inline block;
+                        float: left;
+                        padding:6px 0 0 25px;
+                        }
+*/
+.wrapper{
+          height: 70px;
+          width: 1200px;
+          position: fixed;
+          text-align: center;
+        }
+
+.menu{
+       display: inline-block;
+       padding: 0px 30px 0px 30px;
+       margin: 25px 0 27px  0px;
+       top: 0;
+       text-align: center;
+       position: relative; top:0px;
+       font-weight: 400;
+       color: white;
+
+}
+
+.wrapper ul li:last-child{border-right: none;}
+
+.menu a {text-decoration: none;}
+.menu a:visited{color:white;}
+.menu a:hover{color:yellow;
+ border-bottom:1px solid yellow;}
+ .menu a:active{color:red;}
+
+
+ #background{width: 1200px; position: relative;top:70px;}
+
+.page1{width:1200px;height: 1000px;}
+ #square{ width: 400px;
+           height: 500px;
+           background-color: pink;
+          display: inline;
+          float: right;
+          margin-top: 300px;
+          position: relative;
+         }
+#man{margin-top: 0;
+      width: 500px;
+      display: inline;
+      position: absolute;transform: translate(600px,250px);
+      float: right;}
+
+.article{
+          float: left;
+
+          font-size: 0.8em;
+          line-height: 1em;
+        }
+
+.page1 .article{margin-top: 300px;}
+#articletitle{
+              font-size: 3em;
+              line-height: 0.3em;
+              font-weight: bold;
+              }
+#smalltitle{
+            color: orange;
+            font-size: 1em;
+            line-height: 5em;
+            font-weight: 800;
+            }
+#clickview a {text-decoration: none; font-weight: bold; font-size: 1.5em; line-height: 8em;}
+#clickview a:visited{color: black; font-weight: bold;}
+#clickview a:hover{
+
+                    border-bottom:1px solid orange;
+                  }
+
+.page2{width:1100px;height: 1000px;margin: auto; position: relative;}
+.page2 .article #smalltitle {line-height: 0;}
+.page2 .article #articletitle {line-height: 1.7em;}
+
+
+
+
+
+    #product_2{
+            width: 400px;
+            display: inline;
+            position: absolute;right: 10%;
+            margin: 0;
+
+          }
+
+
+
+    #product_1{
+                width: 400px;
+                display: inline;
+                position: absolute;left: 10%; top:20%;
+                margin: 0;
+              }
+
+.producttext {
+              display: inline;
+              position: absolute; left: 13%; top:57%;
+              line-height: 0.5em;
+
+              }
+.producttext a {
+                text-decoration: none;
+                line-height: 4em;
+                }
+.producttext .producttitle {
+                              font-size: 1.5em;
+                              font-weight: 700;
+                              line-height: 1em;
+                              }
+
+#producttext_2{ width: 500px;
+                display: inline;
+                position: absolute; right: 3% ; top:30%;
+              }
+
+
+
+
+.producttext a:visited{color: black; font-weight: bold;}
+.producttext a:hover{color: white;
+                           border-bottom:1px solid orange;
+                            }
+.banner{
+        max-width:1400px;
+        height: 300px;
+        margin: auto;
+        position: relative;
+        overflow: hidden;
+        font-size: 1.1em;
+        line-height: 1em;
+        margin-bottom: 0;
+      }
+.banner .bannertext {color: white;
+                      position: absolute;top:110px;left: 360px;
+                      text-align: center;
+                      margin-top: 0;
+                          }
+
+
+#bannertext_1{font-size: 1.7em; color: white; font-weight: 800;}
+.bannertext a{text-decoration:none; line-height: 4em; font-weight: 800;}
+.bannertext a:visited{color: white;}
+.bannertext a:hover{color: orange; border-bottom: 2px solid yellow;}
+
+
+
+.page3{ display: inline-block;
+        width: 1200px;
+        height:600px;
+        margin-top: 0;
+        background-color: #e2e2e2;}
+
+ .info{
+         text-align: center;
+         font-size: 0.8em;
+         margin-top: 120px;
+       }
+
+.info img{
+          width: 100px;
+          margin-bottom: 40px;
+        }
+#info_title{
+            font-size: 1em;
+            font-weight: 600;
+
+            }
+
+
+    #info1{
+            display: inline-block;
+            margin:0px 40px 0px 40px;
+            }
+    #info2{
+          display: inline-block;
+          margin:0px 40px 0px 40px;
+          }
+    #info3{
+          display: inline-block;
+          margin:0px 40px 0px 40px;
+          }
+    #info4{
+        display: inline-block;
+        margin:0px 40px 0px 40px;
+        }
+
+.page3 .page3_title{text-align: center;}
+
+.page3 #articletitle p{
+                      font-size: 0.8em;
+                      margin-top: 0;
+                        }
+.page3 #smalltitle{margin-top: 30px;}
+
+
+
+.page4{width: 1200px; height: 700px; margin-top: 110px;}
+.swipe_1{ width: 280px; height: 300px;
+          display: inline-block;
+          border: 1px solid gray;
+          margin: 50px 7px 0px 7px;
+          text-align: center;
+        }
+
+
+footer {  width: 100%;
+          height: 150px;
+          background-color: gray;
+          position: absolute; bottom: -3700px;
+
+        }
+
+.footer_text {width: 1200px;
+              margin: auto;
+              position: absolute;transform: translate(50%,50%);
+              color: white;
+              font-size: 0.5em;
+              display: inline-block;
+              }
